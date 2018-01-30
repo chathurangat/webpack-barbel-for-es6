@@ -15,5 +15,8 @@
     "babel-preset-env": "^1.6.1",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
   }
 }

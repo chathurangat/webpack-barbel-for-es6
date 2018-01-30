@@ -11,4 +11,12 @@
 
 </body>
 <script src="build/app.bundle.js"></script>
+
+<script type="text/javascript">
+
+    //we can invoke "getWelcomeMessage" here because it has already been assigned to "window" object
+    var message = getWelcomeMessage("www.springbootdev.com");
+    console.log("printed on index.html [" + message + "]");
+
+</script>
 </html>
